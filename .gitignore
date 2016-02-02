@@ -1,0 +1,9 @@
+/bootstrap/
+/components/
+/config/
+/dotbot/
+Gemfile.lock
+npm-debug.log
+bower_components/
+node_modules/
+tags

@@ -1,0 +1,64 @@
+---
+-
+  clean:
+    - "~"
+-
+  link:
+    ~/.meinekonfig:
+        force: true
+        path: ""
+    ~/.tmux/plugins/tpm:
+        create: true
+        force: true
+        path: components/tpm
+    ~/.zgen:
+        force: true
+        path: components/zgen
+    ~/.gitconfig:
+        force: true
+        path: config/git/config
+    ~/.gitconfig.user:
+        force: true
+        path: config/git/user
+    ~/.gitignore:
+        force: true
+        path: config/git/ignore
+    ~/.vim:
+        force: true
+        path: config/vim
+    ~/.config/nvim:
+        force: true
+        path: config/vim
+    ~/.tmux.conf:
+        force: true
+        path: config/tmux/tmux.conf
+    ~/.pryrc:
+        force: true
+        path: config/pry/pryrc.rb
+    ~/.aprc:
+        force: true
+        path: config/pry/aprc.rb
+    ~/.pryrc_helpers.rb:
+        force: true
+        path: config/pry/pryrc_helpers.rb
+    ~/.pryrc_helpers.rb:
+        force: true
+        path: config/pry/pryrc_helpers.rb
+    ~/.zsh:
+        force: true
+        path: config/zsh
+    ~/.zshrc:
+        force: true
+        path: config/zsh/zshrc
+    ~/.gemrc:
+        force: true
+        path: dotfiles/gemrc
+    ~/.bundle/config:
+        force: true
+        path: dotfiles/bundle/config
+    ~/.irbrc:
+        force: true
+        path: dotfiles/irbrc
+    ~/.rspec:
+        force: true
+        path: dotfiles/rspec
