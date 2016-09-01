@@ -27,6 +27,7 @@
         force: true
         path: config/vim
     ~/.config/nvim:
+        create: true
         force: true
         path: config/vim
     ~/.tmux.conf:
@@ -52,13 +53,11 @@
         path: config/zsh/zshrc
     ~/.gemrc:
         force: true
-        path: dotfiles/gemrc
+        path: config/gemrc
     ~/.bundle/config:
+        create: true
         force: true
-        path: dotfiles/bundle/config
+        path: config/bundle/config
     ~/.irbrc:
         force: true
-        path: dotfiles/irbrc
-    ~/.rspec:
-        force: true
-        path: dotfiles/rspec
+        path: config/irbrc
